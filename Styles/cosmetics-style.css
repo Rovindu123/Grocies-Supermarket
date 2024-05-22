@@ -1,0 +1,162 @@
+#LinksToOtherPages{
+  display: flex; 
+  justify-content: space-between;
+  position: absolute;
+  left: 200px;
+  top: 5px;
+  background-color: black;
+  font-size: medium;
+  width: 87%;
+}
+
+#LinksToOtherPages a{
+  font-size: 20px;
+  color: white;
+  padding: 25px;
+}
+
+#LinksToOtherPages a:hover{
+  font-size: 30px;
+}
+
+picture button {
+  border: none;
+  background-color: white;
+  margin-left: 0px;
+}
+
+#main{
+  position: absolute;
+  top: 85px;
+  left: 200px;
+  margin-bottom: 2px;
+  background-color: lightgreen;
+  width: 87%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: large;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+  margin-left: 22px;
+}
+
+.pill-btn {
+  border-radius: 30px;
+  border: 3px;
+  padding: 10px;
+}
+
+.pill-btn:hover{
+  background-color: hsl(207, 94%, 64%);
+}
+
+.table {
+    margin-left: 20px;
+    border-collapse: collapse;
+    width: 80%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    align-content: center;
+}
+
+th, td {
+    border: 1px solid #828282;
+    text-align: center;
+    padding: 10px;
+}
+
+tr {
+    background-color: whitesmoke;
+}
+
+tr:nth-child(even):hover{
+  background-color: azure;
+}
+
+tr:nth-child(odd):hover{
+  background-color: beige;
+}
+
+.table01 tbody tr td img{
+  transform: scale(1.2,1.2);
+}
+
+footer {
+  margin-top: 15px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 14px;
+  justify-content: center;
+}
+
+footer .social-links {
+  display: flex;
+}
+
+footer .social-links a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+footer .social-links a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s;
+}
+
+footer .social-links a:hover img {
+  transform: scale(1.1);
+}
+
+footer button{
+  text-align: center;
+  font-size: medium;
+  margin: 20px;
+}
+
+footer button:hover{
+  background-color: hsl(207, 94%, 64%);
+}
+
+.social-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2px;
+}
+
+@media (max-width: 600px) {
+  .image img {
+      height: 100px;
+      width: 100px;
+  }
+
+  #LinksToOtherPages {
+      position: sticky;
+      flex-direction: column;
+      align-items: center;
+      font-size: 8px;
+      width: 100%;
+      justify-content: center;
+  }
+
+  #LinksToOtherPages a {
+      width: 100%;
+      text-align: center;
+  }
+
+  #main{
+      position: absolute;
+      left: 110px;
+      top: 0px;
+      font-size: 14px;
+      height: 100px;
+      width: 75%;
+  }
+}
