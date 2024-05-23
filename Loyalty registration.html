@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="Styles\loyalty-style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="icon512_rounded.png">
+</head>
+<body>
+    <header> 
+        <picture class="image">
+            <button><a href="index.html"><img src="Images\Logo.png" alt="Logo" height="200px" width="200px"></a></button>
+        </picture>    
+        <nav id="LinksToOtherPages">
+            <a href="index.html" >Home Page</a>
+            <a href="about us.html">About Us</a>
+            <a href="fruits.html">Fruits</a>
+            <a href="vegetables.html">Vegetables</a>
+            <a href="Dairy products.html">Dairy Products</a>
+            <a href="cosmetics and skin care.html">Cosmetics and Skin care</a>
+            <a href="Order.html">Cart</a>
+            <a href="Loyalty registration.html">Sign Up</a>
+        </nav>
+    </header>
+    <section id="main">
+        <h1>Welcome to Grocies Supermarket!</h1>
+        <p>Your one-stop shop for all your grocery needs</p>
+    </section>
+        <p><h1>Loyalty Registration Form</h1></p>
+<form class="form">
+    <from action="#" method="post">
+    <fieldset>
+        <legend><h2>Personal Information</h2></legend>
+        <ul>    
+        <li><p><lable for="textbox_01">Name with initials:</lable></li>
+            <input type="text" id="textbox_01" name="name"></p>
+        <li><P><lable for="textbox_02">Full name:</lable></li>
+            <input type="text" id="textbox_02" name="name_2"></P>
+        <li><p><lable for="textbox_03">Date Of Birth:</lable></li>
+            <input type="date" id="textbox_03" name="DOB"></p>
+        <li><p><lable for="">Gender:</lable></li>
+            <input type="radio" id="r01" name="Gender" value="Male">
+                <lable for="r01">Male</lable>
+            <input type="radio" id="r02" name="Gender" value="Female">
+                <lable for="r02">Female</lable></p>
+        <li><p><lable for="textbox_04">NIC no:</lable></li>
+            <input type="text" id="textbox_04" name="NIC"></p>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend><h2>Contact Information</h2></legend>
+        <ul>
+        <li><p><lable for="textbox_05">Personal Adress:</lable></li>
+            <input type="text" id="textbox_05" name="PA"></p>
+        <li><p><lable for="textbox_06">Personal Mobile no:</lable></li>
+             <input type="number" id="textbox_06" name="PMn" maxlength="10"></p>
+        <li><p><lable for="textbox_07">Email:</lable></li>
+            <input type="email" id="textbox_07" name="email"></p>
+        </ul>
+    </select>
+    </fieldset>
+
+    <fieldset class="fieldset3">
+        <legend><h2>Other Information</h2></legend><br>
+        <ul>
+        <li><p><label for="loyalty-schemes">Choose your Loyalty Sceme:</label></li>
+                <section id="Bronze">
+                    <img src="Images\bronze.avif" alt="Bronze Package"> 
+                    <p><input type="radio" id="r01" name="Account type" value="Bronze Package">
+                    <lable for="r01">Bronze Package</lable></p> 
+                    <ol>
+                        <li>Upto 2% discount for every purchase above 10,000rs.(Everyday Offer)</li>
+                        <li>Upto 4% discount for every purchase above 15,000rs.(Seasonal Offer)</li>
+                    </ol>
+                </section><br>
+                <section id="Silver">
+                    <img src="Images\silver2.jpg" alt="Silver Package">
+                    <p><input type="radio" id="r02" name="Account type" value="Silver Package">
+                        <lable for="r02">Silver Package</lable></p>
+                        <ol>
+                            <li>Upto 4% discount for every purchase above 12,000rs.(Everyday Offer)</li>
+                            <li>Upto 6% discount for every purchase above 20,000rs.(Seasonal Offer)</li>
+                        </ol>
+                </section><br>
+                <section id="Gold">
+                    <img src="Images\gold.avif" alt="Gold Package">
+                    <p><input type="radio" id="r03" name="Account type" value="Gold Package">
+                        <lable for="r03">Gold Package</lable></p>
+                        <ol>
+                            <li>Upto 6% discount for every purchase above 15,000rs.(Everyday Offer)</li>
+                            <li>Upto 8% discount for every purchase above 25,000rs.(Seasonal Offer)</li>
+                        </ol>
+                </section><br>
+                <br>
+
+        
+        <li><lable for="filepicker_01">Upload a Profile Picture:</lable></li>
+            <input type="file" id="filepicker_01" name="ProPic">  
+            
+        </ul>
+        <br>
+        <button class="form-button">Submit Information</button>
+        <button class="form-button">Reset form</button>
+        
+    </fieldset>
+</form>
+<footer>
+    <div class="contact">
+        <center><h2>Contact Us</h2>
+                <p>Email: info@ecomarket.com</p>
+                <p>Phone: +94 75 850 7519</p>
+                <p>Address: 285/2A , Union Place, Colomco</p></center>
+    </div>
+    <div class="social">
+        <center><h2>Follow Us</h2></center>
+        <div class="social-links">
+            <a href="#"><img src="Images\facebook-logo.png" alt="Facebook"></a>
+            <a href="#"><img src="Images\twitter-logo.png" alt="Twitter"></a>
+            <a href="#"><img src="Images\instagram-logo.avif" alt="Instagram"></a>
+        </div>
+    </div>
+    <div class="copyright-icons">
+        <center><span>&copy; Eco Market 2024</span></center>
+    </div>
+</footer>
+</body>
+</html>
+
+
+
