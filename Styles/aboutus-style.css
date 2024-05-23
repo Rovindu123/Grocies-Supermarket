@@ -207,6 +207,14 @@ a {
         width: 75%;
     }
 
+    body{
+        margin-left:0%;
+    }
+
+    #branches-nav{
+        justify-content: space-between:
+    }
+
     .branch img{
         height: 450px;
         width: 450px;
